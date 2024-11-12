@@ -1155,6 +1155,14 @@ p {
   bottom: 20px;
 }
 
+.icon-section-0005 {
+  width: 45%;
+}
+
+.icon-section-0005 img{
+  width: 30% !important;
+}
+
 .container-p-0005-2 .desc-img-0005-2-modif1 {
   width: 40% !important;
   bottom: 50% !important;
