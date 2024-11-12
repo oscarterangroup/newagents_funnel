@@ -10,6 +10,7 @@ html {
   --transparent-bg: rgba(0,0,0,0.10);
   --site-title-font: "Averta-Semibold";
   --site-paragraph-font: "AvertaStd-Light";
+  --site-titlesec-font: "AvertaDemo-ExtraBoldItalic";
   --border-btn: 50px;
   --border-cont: 20px;
 }
@@ -39,7 +40,7 @@ h1 {
 
 h2{
     letter-spacing: 0.3rem;
-    font-size: 5vh;
+    font-size: 7vh;
     text-align: center;
   }
 
@@ -552,10 +553,11 @@ p {
   align-items: flex-start;
   width: 100%;
   padding: 2rem 0;
-  background-image: url('./imgs/otg-wallpapaer.png');
+  background-image: url('./imgs/otg-wallpaper-blue.png');
   background-size: cover;
   background-position: 50% 0;
   background-repeat: no-repeat;
+  color: var(--color-terciario) !important;
 }
 
 .sec2-cont {
@@ -572,10 +574,12 @@ p {
 
 .sec2-cont h2{
   text-align: left;
+  text-transform: uppercase;
+  font-family: var(--site-titlesec-font);
 }
 
 .sec2-cont p{
-  font-size: 1.8rem;
+  font-size: 1.2rem;
 }
 
 
@@ -1090,8 +1094,9 @@ p {
   width: 100%;
   max-width: 2000px;
   padding: 0 1rem;
-  padding-bottom: 15rem;
-  font-size: 7rem;
+  font-family: var(--site-titlesec-font);
+  font-size: 5rem;
+  text-transform: uppercase;
 }
 
 .div-0005-2 {
@@ -1109,7 +1114,7 @@ p {
   align-items: flex-start;
   gap: 2rem;
   padding: 2rem;
-  max-width: 1200px;
+  max-width: 1300px;
 }
 
 .container-0005-2 h3{
@@ -1123,7 +1128,7 @@ p {
   min-height: 240px;
   background-color: var(--color-primario);
   color: var(--color-terciario);
-  padding: 4rem 3rem 1rem;
+  padding: 4rem 3rem 2rem;
   display: flex;
   flex-direction: column;
   gap: 1rem;
@@ -1150,6 +1155,15 @@ p {
   bottom: 20px;
 }
 
+.container-p-0005-2 .desc-img-0005-2-modif1 {
+  width: 40% !important;
+  bottom: 50% !important;
+}
+
+.container-p-0005-2 .desc-img-0005-2-modif3 {
+  width: 30% !important;
+}
+
 /* section5 new */
 
 .container-0005-2-rev {
@@ -1160,7 +1174,7 @@ p {
   align-items: flex-end;
   gap: 2rem;
   padding: 2rem;
-  max-width: 1200px;
+  max-width: 1300px;
 }
 
 .container-0005-2-rev h3{
@@ -1201,6 +1215,12 @@ p {
   left: 20px;
   bottom: 20px;
 }
+
+.btn-0005 {
+  width: 45%;
+}
+  
+
 
 /* section5 new-rev */
 
